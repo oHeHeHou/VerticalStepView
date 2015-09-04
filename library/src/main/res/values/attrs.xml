@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="VerticalStepView">
+        <attr name="labelTextSize" format="dimension" />
+        <attr name="subLabelTextSize" format="dimension" />
+        <attr name="labelTextColor" format="color" />
+        <attr name="subLabelTextColor" format="color" />
+        <attr name="normalColor" format="color" />
+        <attr name="progressColor" format="color" />
+        <attr name="circleRadius" format="dimension" />
+        <attr name="lineThickness" format="dimension" />
+    </declare-styleable>
+</resources>
