@@ -7,7 +7,7 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.util.DisplayMetrics;
-import android.view.ViewGroup;
+import android.view.View;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,7 +16,7 @@ import java.util.List;
  * Created by caoyuhong
  * Created Date 15/8/26
  */
-public class VerticalStepView extends ViewGroup {
+public class VerticalStepView extends View {
 
     private final int DEFAULT_LABEL_COLOR = Color.BLACK;
     private final int DEFAULT_STEP_COLOR = Color.GRAY;
@@ -52,8 +52,6 @@ public class VerticalStepView extends ViewGroup {
 
     public VerticalStepView(Context context, AttributeSet attrs) {
         super(context, attrs);
-
-        setWillNotDraw(false);
 
         TypedArray a = context.getTheme().obtainStyledAttributes(
                 attrs,
