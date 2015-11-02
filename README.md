@@ -1,5 +1,5 @@
 # VerticalStepsView
-![image](https://github.com/oHeHeHou/VerticalStepsView/raw/master/app/src/main/res/drawable/device-2015-09-04-174743.png)
+![image](https://github.com/oHeHeHou/VerticalStepsView/raw/master/app/src/main/res/drawable/sample.png)
 # Usage
 ```xml
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
